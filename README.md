@@ -1,2 +1,2 @@
 # zzz
-host website
+host website on netlify
