@@ -7,7 +7,7 @@ function moveHands(){
 	  document.getElementById("seconds").style.csstext= "-webkit-transform:rotate(" + s + "deg);";
 	  document.getElementById("minutes").style.csstext="-webkit-transform:rotate(" + m + "deg);";
 	  document.getElementById("hours").style.csstext="-webkit-transform:rotate(" + h + "deg);";
-	 SetTimeout(moveHands, 1000); // calling the function every second
+	 setTimeout(moveHands, 1000); // calling the function every second
 	}
 
 }  
